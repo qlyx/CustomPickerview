@@ -20,13 +20,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    
- 
-    
+
     //闰年非闰年都做了判断 年份取得是当前年份的前后三十年，大家也可自行按照自己需求自行修改
     Dpicker = [[CustomDatePicker alloc] initWithFrame:CGRectMake(0, 20, self.view.frame.size.width-20, 200)];
-    
     
 }
 
